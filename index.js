@@ -1,7 +1,7 @@
 // Requiring! TODO: Include packages needed for this application | importing a package
 // this is a npm you downloaded
 var inquirer = require ('inquirer');
-// fs is a built-in package in node
+// fs is a built-in package in node (module; inside the () we pass the module name as a string)
 var fs = require ('fs');
 // you have to require the path similar to how you import scripts/imgs etc.
 // generates markdown exports
@@ -12,7 +12,7 @@ const questions = [];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
-// can be place inside the inquirer.then(answers) {fsWriteFile}
+// can be placed inside the inquirer.then(answers) {fsWriteFile}
 
 // TODO: Create a function to initialize app
 // put all of your code for running the application inside of this function
@@ -25,22 +25,42 @@ inquirer
 // TODO: Finish making your questions
     // the prompt is the actual thing running (the meat of it)
     .prompt([
-        // pass your questions here. it takes an array of objects
-        {
-            type: "input", 
-            name: "title",
-            message: "What is the title?"
-        },
-        {
-            type: "input", 
-            name: "description",
-            message: "Provide a description of your project?"
-        },
-
+        // pass your questions here. it takes an array of objects. Example Below:
         // type: "list"
         // name: ""
         // message: ""
         // choices: [array of choices]
+        {
+            type: "input", 
+            name: "title",
+            message: "What is the title?",
+        },
+        {
+            type: "input", 
+            name: "description",
+            message: "Provide a description of your project?",
+        },
+        {
+            type: "input",
+            name: "Live Application Link",
+            message: "Provide a link to your live project",
+        },
+        {
+            type: "input",
+            name: "Creator Name",
+            message: "Provide your full name",
+        },
+        {
+            type: "input",
+            name: "Creator Contact",
+            message: "Provide a valid email address",
+        },
+        {
+            type: "input",
+            name: "Contributors",
+            message: "List the GitHub usernames of all contributors for this project",
+        },
+
     ])
     // TODO: all actual code will happen here. inputs will be used to write the file
     // run generateMarkdown inside .then and give it answers
