@@ -42,23 +42,33 @@ inquirer
         },
         {
             type: "input",
-            name: "Live Application Link",
-            message: "Provide a link to your live project",
+            name: "license",
+            message: "Did you use any licenses?"
         },
         {
             type: "input",
-            name: "Creator Name",
-            message: "Provide your full name",
+            name: "link",
+            message: "Provide a link to your live project?",
         },
         {
             type: "input",
-            name: "Creator Contact",
-            message: "Provide a valid email address",
+            name: "creator",
+            message: "Provide your full name?",
         },
         {
             type: "input",
-            name: "Contributors",
-            message: "List the GitHub usernames of all contributors for this project",
+            name: "github",
+            message: "What is your github username?"
+        },
+        {
+            type: "input",
+            name: "contact",
+            message: "Provide a valid email address?",
+        },
+        {
+            type: "input",
+            name: "contributors",
+            message: "List the GitHub usernames of all contributors for this project:",
         },
 
     ])
