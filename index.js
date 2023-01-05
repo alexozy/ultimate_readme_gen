@@ -81,7 +81,7 @@ function init() {
         const userLink = answers.link;
         const userCreator = answers.creator;
         const userGithub = answers.github;
-        const userContact = answers.
+        const userContact = answers.contact;
         // gets the answers| user feedback here
         console.log(answers.title)
     })
