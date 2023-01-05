@@ -14,6 +14,9 @@ function renderLicenseSection(license) {}
 
 // data are the answers that you will get from inquirer prompt
 // build the structure of the readme here
+function licenseBadge (data)
+
+
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -28,17 +31,21 @@ function generateMarkdown(data) {
 
 ## Title
   ${data.title}
+
 ## Description
   ${data.description}
+
 ## License
   ${data.license} 
+
 ## Application Link
   ${data.link}
+
 ## GitHub
   ${data.github}
+
 ## Contact
-  ${data.contact}
-`;
+  ${data.contact}`;
 }
 
 module.exports = generateMarkdown;
