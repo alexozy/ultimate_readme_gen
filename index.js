@@ -1,11 +1,11 @@
 // Requiring! TODO: Include packages needed for this application | importing a package
 // this is a npm you downloaded
-var inquirer = require ('inquirer');
-// fs is a built-in package in node (module; inside the () we pass the module name as a string)
-var fs = require ('fs');
+const inquirer = require ('inquirer');
+// TODO:fs is a built-in package in node (module; inside the () we pass the module name as a string)
+const fs = require ('fs');
 // you have to require the path similar to how you import scripts/imgs etc.
 // generates markdown exports
-var generateMarkdown = require ('./utils/generateMarkdown');
+const generateMarkdown = require ('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input. I placed my answers inside the .prompt for inquirer.
 const questions = [];
@@ -19,6 +19,7 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 // put all of your code for running the application inside of this function
 function init() {
+
     inquirer
     // the .prompt is the actual thing running (the meat of it)
     // pass your questions here. it takes an array of objects. Example Below:
@@ -38,9 +39,10 @@ function init() {
             message: "Provide a description of your project?",
         },
         {
-            type: "input",
+            type: "checkbox",
             name: "license",
-            message: "Did you use any licenses?"
+            message: "Did you use any licenses?",
+            choices: ["MIT", "Other"],
         },
         {
             type: "input",
@@ -73,8 +75,15 @@ function init() {
     // run generateMarkdown inside .then and give it answers
     // use it's returns later
     .then((answers)=> {
+        const userTitle = answers.title;
+        const userDescription = answers.description;
+        const userLicense = answers.license;
+        const userLink = answers.link;
+        const userCreator = answers.creator;
+        const userGithub = answers.github;
+        const userContact = answers.
         // gets the answers| user feedback here
-        console.log(answers)
+        console.log(answers.title)
     })
     .catch ((error) => {
         // the if/else is not needed. you just need to see the error
