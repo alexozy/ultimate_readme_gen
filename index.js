@@ -7,8 +7,10 @@ var fs = require ('fs');
 // generates markdown exports
 var generateMarkdown = require ('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// TODO: Create an array of questions for user input. I placed my answers inside the .prompt for inquirer.
 const questions = [];
+// if you want to place the objects inside const questions, 
+// you would inquirer.prompt(questions)
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
@@ -16,16 +18,11 @@ function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 // put all of your code for running the application inside of this function
-
-// if you want to place the objects inside const questions, 
-// you would inquirer.prompt(questions)
-
 function init() {
-inquirer
-// TODO: Finish making your questions
-    // the prompt is the actual thing running (the meat of it)
+    inquirer
+    // the .prompt is the actual thing running (the meat of it)
+    // pass your questions here. it takes an array of objects. Example Below:
     .prompt([
-        // pass your questions here. it takes an array of objects. Example Below:
         // type: "list"
         // name: ""
         // message: ""
@@ -70,7 +67,7 @@ inquirer
             name: "contributors",
             message: "List the GitHub usernames of all contributors for this project:",
         },
-
+        
     ])
     // TODO: all actual code will happen here. inputs will be used to write the file
     // run generateMarkdown inside .then and give it answers
