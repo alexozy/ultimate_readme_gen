@@ -14,7 +14,16 @@ function renderLicenseSection(license) {}
 
 // data are the answers that you will get from inquirer prompt
 // build the structure of the readme here
-function licenseBadge (data)
+function licenseBadge (data){
+  const licenseName = data.license[0];
+  let licenseString = " "
+  if (licenseName === "MIT") {
+    licenseString = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
+  };
+  if (licenseName === "Other"){
+    licenseString = `Other License Used!`
+  };
+};
 
 
 function generateMarkdown(data) {
