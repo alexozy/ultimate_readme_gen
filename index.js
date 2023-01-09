@@ -65,6 +65,12 @@ function init() {
         },
         {
             type: "input",
+            name: "tests",
+            message: "Does this project require test?"
+
+        },
+        {
+            type: "input",
             name: "contributors",
             message: "List the GitHub usernames of all contributors for this project:",
         },

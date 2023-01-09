@@ -32,6 +32,7 @@ function generateMarkdown(data) {
       3. [License](#license)
       4. [Installation](#installation)
       5. [Usage](#usage)
+      6. [Tests](#test)
       6. [Application Link](#link)
       7. [GitHub](#github)
       8. [Contact](#contact)
@@ -48,6 +49,9 @@ function generateMarkdown(data) {
 ## Usage
   ${data.usage}
 
+## Tests
+  ${data.tests}
+
 ## Application Link
   ${data.link}
 
@@ -58,7 +62,6 @@ function generateMarkdown(data) {
   ${data.contributors}
 ## Contact
   ${data.creator}  
-  ${data.email}
   ${data.contact}`;
 }
 
