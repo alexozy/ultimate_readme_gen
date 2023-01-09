@@ -31,7 +31,17 @@ function init() {
             type: "checkbox",
             name: "license",
             message: "Did you use any licenses?",
-            choices: ["MIT", "Other"],
+            choices: ["MIT", "Other", "N/A"],
+        },
+        {
+            type: "input",
+            name: "installation",
+            message: "Does this project have specific installation requirements?",
+        },
+        {
+            type: "input",
+            name: "usage",
+            message: "Does this project have usage guidelines?",
         },
         {
             type: "input",
