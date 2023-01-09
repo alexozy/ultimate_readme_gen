@@ -65,7 +65,7 @@ function init() {
 
         ])
         .then((response) => {
-            return fs.writeToFile(path.join(process.cwd(), "NEW.md"), generateMarkdown(response));
+            return fs.writeFileSync(path.join(process.cwd(), "NEW.md"), generateMarkdown(response));
         });
 
         // .catch((error) => {
