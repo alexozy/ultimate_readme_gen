@@ -1,24 +1,17 @@
-// Requiring! TODO: Include packages needed for this application | importing a package
-// this is a npm you downloaded
-const inquirer = require ('inquirer');
-// TODO:fs is a built-in package in node (module; inside the () we pass the module name as a string)
-const fs = require ('fs');
-// you have to require the path similar to how you import scripts/imgs etc.
-// generates markdown exports
-const generateMarkdown = require ('./utils/generateMarkdown');
-
-// TODO: Create an array of questions for user input. I placed my answers inside the .prompt for inquirer.
-const questions = [];
-// if you want to place the objects inside const questions, 
-// you would inquirer.prompt(questions)
-
-// TODO: Create a function to write README file
+// Create a function to write README file
 function writeToFile(fileName, data) {}
 // can be placed inside the inquirer.then(answers) {fsWriteFile}
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 // put all of your code for running the application inside of this function
 function init() {
+// Include packages needed for this application | importing a package
+// this is a npm you downloaded
+// declaring variables inside function init()
+const inquirer = require ('inquirer');
+const fs = require ('fs');
+const generateMarkdown = require ('./utils/generateMarkdown');
+
 
     inquirer
     // the .prompt is the actual thing running (the meat of it)
