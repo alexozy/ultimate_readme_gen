@@ -26,16 +26,18 @@ function licenseBadge (data){
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## Table of Contents
+  # Table of Contents
       1. [Title](#title)
       2. [Description](#description)
       3. [License](#license)
       4. [Installation](#installation)
       5. [Usage](#usage)
-      6. [Tests](#test)
-      6. [Application Link](#link)
+      6. [Tests](#tests)
+      6. [Application Link](#applicationlink)
       7. [GitHub](#github)
       8. [Contact](#contact)
+      9. [Contributors](#contributors)
+      10.[Questions](#questions)
 
 ## Description
   ${data.description}

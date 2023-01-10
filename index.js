@@ -16,7 +16,8 @@ function init() {
         // type: "list"
         // name: ""
         // message: ""
-        // choices: [array of choices]
+        // choices: [array of choices] *if needed*
+        
         {
             type: "input",
             name: "title",
@@ -66,7 +67,7 @@ function init() {
         {
             type: "input",
             name: "tests",
-            message: "Does this project require test?"
+            message: "Does this project require tests?"
 
         },
         {
