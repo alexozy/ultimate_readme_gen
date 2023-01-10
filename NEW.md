@@ -1,5 +1,4 @@
-# SAMPLE README GENERATION
-
+# SAMPLE README FILE FOR GENERATOR
 
   ## Table of Contents
   * [Title](#title)
@@ -15,7 +14,7 @@
   * [Contact](#contact)
 
 ## Description
-  This is a short description to show that the readme generator is workign!
+  THIS is a readme generator that can be used from the command line on the users local computer. We are creating the example to showcase the possibilites.
 
 ## License
   MIT 
@@ -24,13 +23,13 @@
   Not at this time.  
 
 ## Usage
-  Users will have to use this application in the command line.
+  Users are encouraged to download node.js and use this application in their command line.
 
 ## Tests
   Not at this time!
 
 ## Application Link
-  Not available at this time.
+  This is not a live applciation. Link not available.
 
 ## GitHub
   alexozy

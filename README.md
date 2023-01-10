@@ -6,7 +6,7 @@ Node.js and Inquirer were used to create professional README files utilizing the
 ## Live Application
 Please see video that showcases how to use the Ultimate README Generator. There is no live link for this application.
 
-[screencastify]()
+[Screencastify Recording](https://watch.screencastify.com/v/Gg0j9WkqBTrVSYDiFhNO)
 
 
 ## Installation
@@ -19,6 +19,7 @@ Using the command line, users will be able to input unique answers when prompted
 Not available at this time.
 
 ## License
+Not available at this time.
 
 ## Contact Me
 If you want to contact me you can reach me at ![alexanoz@outlook.com](alexanoz@outlook.com).

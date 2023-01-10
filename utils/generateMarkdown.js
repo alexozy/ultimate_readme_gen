@@ -36,7 +36,6 @@ function licenseBadge (data){
 function generateMarkdown(data) {
   return `# ${data.title}
 
-
   ## Table of Contents
   * [Title](#title)
   * [Description](#description)
