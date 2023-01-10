@@ -52,7 +52,7 @@ function init() {
         {
             type: "input",
             name: "creator",
-            message: "Provide your full name?",
+            message: "Provide your full name:",
         },
         {
             type: "input",
