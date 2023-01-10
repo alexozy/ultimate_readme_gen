@@ -73,6 +73,9 @@ function generateMarkdown(data) {
 
 ## Contributors
   ${data.contributors}
+## Questions
+  ${data.questions}
+  
 ## Contact
   ${data.creator}  
   ${data.contact}`;
