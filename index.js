@@ -79,6 +79,7 @@ function init() {
     ])
     // Create a function to write README file
     .then((response) => {
+        console.log("Your READEME file is generating!")
         return fs.writeFileSync(path.join(process.cwd(), "NEW.md"), generateMarkdown(response));
     });
 
