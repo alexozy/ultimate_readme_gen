@@ -46,9 +46,9 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Application Link](#applicationlink)
   * [GitHub](#github)
-  * [Contact](#contact)
   * [Contributors](#contributors)
   * [Questions](#questions)
+  * [Contact](#contact)
 
 ## Description
   ${data.description}
@@ -73,9 +73,11 @@ function generateMarkdown(data) {
 
 ## Contributors
   ${data.contributors}
-## Questions
-  ${data.questions}
   
+## Questions
+  All questions should be submitted to ${data.contact}.
+  You can also access my github at [github/${data.github}](https://github.com/${data.github})
+
 ## Contact
   ${data.creator}  
   ${data.contact}`;
