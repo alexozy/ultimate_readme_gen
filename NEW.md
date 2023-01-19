@@ -1,11 +1,11 @@
-# sdf
+# Test ReadMe For Fixing ReadMeBadge
 
-  ![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Table of Contents
   * [Title](#title)
   * [Description](#description)
-  * [License](#license)
+  **[License](license)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Tests](#tests)
@@ -16,33 +16,33 @@
   * [Contact](#contact)
 
 ## Description
-  sdlkfjd
+  This is a test readme run for fixing grader notes on my readme homework.
 
-## License
-  APACHE 2.0 
+  ## License 
+    Licensed under MIT license
 
 ## Installation
-  sdflkdj  
+  Not at this time  
 
 ## Usage
-  fsldkfj
+  Must be used in the command line as it is not a live application.
 
 ## Tests
-  sldfkj
+  Not at this time.
 
 ## Application Link
-  sldkfjdl
+  N/A
 
 ## GitHub
-  sldkfj
+  alexozy
 
 ## Contributors
-  sdfd
+  N/A
   
 ## Questions
-  All questions should be submitted to sldkfj.
-  You can also access my github at [github/sldkfj](https://github.com/sldkfj)
+  All questions should be submitted to alexanoz@outlook.com.
+  You can also access my github at [github/alexozy](https://github.com/alexozy)
 
 ## Contact
-  sldfkj  
-  sldkfj
+  Ozanne Alexander  
+  alexanoz@outlook.com

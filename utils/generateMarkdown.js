@@ -1,3 +1,14 @@
+// TODO: Create a function to generate markdown for README
+
+// data are the answers that you will get from inquirer prompt
+// build the structure of the readme here
+function licenseBadge (license){
+  if (license !== 'None') {
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  }
+  return '';
+  
+};
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
@@ -16,17 +27,6 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
-
-// data are the answers that you will get from inquirer prompt
-// build the structure of the readme here
-function licenseBadge (license){
-  if (license !== 'None') {
-    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
-  }
-  return '';
-  
-};
 
 
 function generateMarkdown(data) {
