@@ -20,26 +20,24 @@ function renderLicenseSection(license) {
 
 // data are the answers that you will get from inquirer prompt
 // build the structure of the readme here
-function licenseBadge (data){
-  const licenseName = data.license[0];
-  let licenseString = " "
-  if (licenseName === "MIT") {
-    licenseString = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
-  };
-  if (licenseName === "Other"){
-    licenseString = `Other License Used!`
-  };
-  return licenseString
+function licenseBadge (license){
+  if (license !== 'None') {
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  }
+  return '';
+  
 };
 
 
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ${licenseBadge(data.license)}
+
   ## Table of Contents
   * [Title](#title)
   * [Description](#description)
-  * [License](#license)
+  *${renderLicenseLink(data.license)}
   * [Installation](#installation)
   * [Usage](#usage)
   * [Tests](#tests)
@@ -52,8 +50,7 @@ function generateMarkdown(data) {
 ## Description
   ${data.description}
 
-## License
-  ${data.license} 
+  ${renderLicenseSection(data.license)}
 
 ## Installation
   ${data.installation}  

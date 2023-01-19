@@ -1,4 +1,6 @@
-# SAMPLE README FILE FOR GENERATOR
+# sdf
+
+  ![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)
 
   ## Table of Contents
   * [Title](#title)
@@ -14,33 +16,33 @@
   * [Contact](#contact)
 
 ## Description
-  THIS is a readme generator that can be used from the command line on the users local computer. We are creating the example to showcase the possibilites.
+  sdlkfjd
 
 ## License
-  MIT 
+  APACHE 2.0 
 
 ## Installation
-  Not at this time.  
+  sdflkdj  
 
 ## Usage
-  Users are encouraged to download node.js and use this application in their command line.
+  fsldkfj
 
 ## Tests
-  Not at this time!
+  sldfkj
 
 ## Application Link
-  This is not a live applciation. Link not available.
+  sldkfjdl
 
 ## GitHub
-  alexozy
+  sldkfj
 
 ## Contributors
-  N/A
+  sdfd
   
 ## Questions
-  All questions should be submitted to alexanoz@outlook.com.
-  You can also access my github at [github/alexozy](https://github.com/alexozy)
+  All questions should be submitted to sldkfj.
+  You can also access my github at [github/sldkfj](https://github.com/sldkfj)
 
 ## Contact
-  Ozanne Alexander  
-  alexanoz@outlook.com
+  sldfkj  
+  sldkfj

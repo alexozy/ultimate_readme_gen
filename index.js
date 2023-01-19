@@ -29,10 +29,10 @@ function init() {
             message: "Provide a description of your project?",
         },
         {
-            type: "checkbox",
+            type: "list",
             name: "license",
             message: "Did you use any licenses?",
-            choices: ["MIT", "Other", "N/A"],
+            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
         },
         {
             type: "input",
